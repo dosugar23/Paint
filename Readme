@@ -1,5 +1,5 @@
-#PAINT ANDROID APP
-##ABOUT THIS PROJECT:
+PAINT ANDROID APP
+ABOUT THIS PROJECT:
   This project is for education purposes. It's my assignment for the Mobile Application development course. 
   This project is a simple Android Paint application. It has these following functions:
     + Draw
@@ -9,19 +9,19 @@
     + Redo
     + Save
     + Clear
-##BUILT WITH:
+BUILT WITH:
   Android Studio
-##HOW TO INSTALL: 
+HOW TO INSTALL: 
 Unzip the github project to a folder. Open Android Studio. Go to File->Import Project. Then choose the specific project you want to import and then click Next->Finish. It will build the Gradle automatically and'll be ready for you to use.
 
 P.S: In some versions of Android Studio a certain error occurs- error:package android.support.v4.app does not exist. To fix it go to Gradle Scripts->build.gradle(Module:app) and the add the dependecies:
-```
+
 dependencies {      
 compile fileTree(dir: 'libs', include: ['*.jar'])  
 compile 'com.android.support:appcompat-v7:21.0.3'  
 }
-```
-##CONTACT:
+
+CONTACT:
   Bao Nguyen
   Email: dodepchai@gmail.com 
   fb.com/baonguyen1704
